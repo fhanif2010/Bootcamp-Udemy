@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blue-box {
+            width: 500px;
+            height: 300px;
+            background-color: blue;
+            position: relative;
+            top: 200px;
+            left: 200px;
+        }
+
+        .red-circle {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 150px;
+            left: 250px;
+        }
+p {
+    margin: 0;
+}
+        .flag-red {
+            position: relative;
+            top: 300px;
+            width: 500px;
+            height: 300px;
+            background-color: rgb(170, 12, 12);
+            text-align: center;
+        }
+
+        .flag-red p {
+            font-size: 35px;
+            color: white;
+        }
+        .flag-blue {
+            height: 100px;
+            width: 100%;
+            background-color: rgb(14, 14, 100);
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            top: 100px;
+        }
+        .flag-white {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 35px;
+        }
+        .flag-white p {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <fragment>
+        <div>
+            <div class="blue-box">
+                <div class="red-circle">
+                </div>
+            </div>
+            <div class="flag-red">
+                <p>Flag</p>
+                <div class="flag-blue">
+                    <div class="flag-white">
+                        <p>Of Laos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fragment>
+</body>
+
+</html>
