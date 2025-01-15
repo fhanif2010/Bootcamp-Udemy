@@ -1,30 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <section id="Navbar">
-        <div class="d-flex justify-content-center py-3">
-            <div class="">
+        <div class="container">
+            <header class="d-flex justify-content-center py-3 border-bottom">
                 <ul class="nav nav-pills">
-                    <li class="nav-item">
-                      <a class="nav-link link-secondary-active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">About</a>
-                      </li>
-                    <li></li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
+                    <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                 </ul>
-            </div>
-          </div>
+            </header>
+        </div>
     </section>
+
+    <section id="Hero">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6 border-bottom">
+                    <img src="./image/profile.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                        width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Front end Developer</h1>
+                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                        world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section>
+    <div class="container px-4 text-center">
+        <h1 class="display-6 fw-bold text-body-emphasis">My Offered Services</h1>
+        <div class="col-lg-10 mx-auto">
+          <p class="lead mb-4">At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
+        </div>
+      </div>
+   </section>
+
+   <section>
+    <div class="container px-4 py-5" id="featured-3">
+        <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="feature col text-center">
+            <div class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 py-2 px-2 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" fill="currentColor" class="bi bi-pie-chart-fill" viewBox="0 0 16 16">
+                    <path d="M15.985 8.5H8.207l-5.5 5.5a8 8 0 0 0 13.277-5.5zM2 13.292A8 8 0 0 1 7.5.015v7.778zM8.5.015V7.5h7.485A8 8 0 0 0 8.5.015"/>
+                </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Web Design</h3>
+            <p>“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”</p>
+          </div>
+          <div class="feature col text-center">
+            <div class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 py-2 px-2 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" fill="currentColor" class="bi bi-laptop-fill" viewBox="0 0 16 16">
+                    <path d="M2.5 2A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+                  </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Web Development</h3>
+            <p>If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions.</p>
+          </div>
+          <div class="feature col text-center">
+            <div class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 py-2 px-2 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"/>
+                  </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Photography</h3>
+            <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
+          </div>
+          <div class="feature col text-center">
+            <div class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 py-2 px-2 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"/>
+                  </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Photography</h3>
+            <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
+          </div>
+          <div class="feature col text-center">
+            <div class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 py-2 px-2 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"/>
+                  </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Photography</h3>
+            <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
+          </div>
+          <div class="feature col text-center">
+            <div class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 py-2 px-2 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"/>
+                  </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Photography</h3>
+            <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
+          </div>
+        </div>
+      </div>
+   </section>
 </body>
+
 </html>
